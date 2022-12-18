@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <title>Scoreboard App</title>
+</head>
+<body>
+<div class="score-container">
+  <div class="home">
+    <h1>HOME</h1>
+    <div id="home-score">0</div>
+    <div class="buttons">
+      <button id="home-one" onclick="homeOne()">+1</button>
+      <button id="home-two" onclick="homeTwo()">+2</button>
+      <button id="home-three" onclick="homeThree()">+3</button>
+    </div>
+    <button id="reset-home">RESET</button>
+  </div>
+  <div class="away">
+    <h1>AWAY</h1>
+    <div id="away-score">0</div>
+    <div class="buttons">
+      <button id="away-one" onclick="awayOne()">+1</button>
+      <button id="away-two" onclick="awayTwo()">+2</button>
+      <button id="away-three" onclick="awayThree()">+3</button>
+    </div>
+    <button id="reset-away">RESET</button>
+  </div>
+</div>  
+
+
+  <script src="/app.js"></script>
+</body>
+</html>
